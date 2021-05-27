@@ -31,7 +31,6 @@ requirements:
     - pbr !=2.1.0,>=2.0.0
     - python >=3.6
     - requests >=2.14.2
-    - six >=1.10.0
     - stevedore >=1.20.0
 
 test:
