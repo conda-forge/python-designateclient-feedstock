@@ -1,5 +1,5 @@
 {% set name = "python-designateclient" %}
-{% set version = "4.5.1" %}
+{% set version = "5.0.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-designateclient-{{ version }}.tar.gz
-  sha256: 20ed28e117eda69a2c3d9f18a808ddb2d9d470da58f4e2eab3fa6be2c1b3a284
+  sha256: 613b668b4f2b644091c4887af4ec0aa43d7fc8ab4ff71e00e2901a19c5f23bd9
 
 build:
   number: 0
@@ -19,7 +19,7 @@ requirements:
   host:
     - pbr >=2.0.0
     - pip
-    - python >=3.6
+    - python >=3.8
   run:
     - cliff !=2.9.0,>=2.8.0
     - debtcollector >=1.2.0
@@ -29,7 +29,7 @@ requirements:
     - oslo.serialization !=2.19.1,>=2.18.0
     - oslo.utils >=3.33.0
     - pbr !=2.1.0,>=2.0.0
-    - python >=3.6
+    - python >=3.8
     - requests >=2.14.2
     - stevedore >=1.20.0
 
