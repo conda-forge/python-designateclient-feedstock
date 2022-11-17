@@ -1,5 +1,5 @@
 {% set name = "python-designateclient" %}
-{% set version = "5.0.0" %}
+{% set version = "5.1.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-designateclient-{{ version }}.tar.gz
-  sha256: 613b668b4f2b644091c4887af4ec0aa43d7fc8ab4ff71e00e2901a19c5f23bd9
+  sha256: bd6662cd553a4e64cfffe236b27bc1c5c9cad703764a80788da32bd5f227b7d0
 
 build:
   number: 0
